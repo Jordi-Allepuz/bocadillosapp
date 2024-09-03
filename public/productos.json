@@ -1,0 +1,24 @@
+{
+    "tortillas": [
+        {
+            "nombre": "Tortilla de patata"
+        },
+        {
+            "nombre": "Tortilla de cebolla"
+        },
+        {
+            "nombre": "Tortilla de morcilla"
+        },
+        {
+            "nombre": "Tortilla de calabacín"
+        }
+    ],
+    "otros": [
+        {
+            "nombre": "Bacon"
+        },
+        {
+            "nombre": "Queso"
+        }
+    ]
+}
