@@ -4,7 +4,7 @@ import {PantallaInicial} from './components/pantallainicial/PantallaInicial';
 import {BocadilloResult} from './components/bocadilloresult/BocadilloResult';
 import {BocadilloGenerator} from './components/bocadillogenerator/BocadilloGenerator';
 import {BocadilloHistorial} from './components/bocadillohistorial/BocadilloHistorial';
-// import {NuevoProducto} from './components/nuevoproducto/NuevoProducto';
+import {NuevoProducto} from './components/nuevoproducto/NuevoProducto';
 
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
         <Route path="/generator" element={<BocadilloGenerator />} />
         <Route path="/result" element={<BocadilloResult />} />
         <Route path ="/historial" element={<BocadilloHistorial />} />
-        {/* <Route path="/nuevoProducto" element={<NuevoProducto />} /> */}
+        <Route path="/nuevoProducto" element={<NuevoProducto />} />
       </Routes>
     </Router>
   );

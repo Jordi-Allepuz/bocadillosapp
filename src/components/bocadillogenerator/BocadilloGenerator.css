@@ -1,0 +1,105 @@
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1050;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    width: 60%; /* Ajusta al tamaño deseado */
+    height: 70%;
+    display: none; /* Oculto por defecto */;
+    display: flex; /* Habilita flexbox */
+    justify-content: center; /* Centra contenido horizontalmente */
+    align-items: center; /* Centra contenido verticalmente */
+    flex-direction: column; /* Opcional: Organiza los hijos en columna */
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1040;
+}
+.button-container {
+    display: flex;
+    justify-content: center; /* Centra los botones horizontalmente */
+    gap: 10px; /* Espacio entre los botones */
+    padding: 20px; /* Espacio opcional alrededor de los botones */
+    
+}
+
+
+
+
+/* Estilo para los contenedores de los Multiselects */
+.multiselect-container {
+    width: 25%; /* Ajusta el ancho según sea necesario */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.multiselect-row {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el botón con el Multiselect */
+    gap: 10px; /* Espacio entre el Multiselect y el botón */
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho necesario */
+}
+
+/* Botón de cancelar selección */
+.cancelar-button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 100%; /* Ajusta la altura del botón para que coincida con la altura del Multiselect */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cancelar-button:hover {
+    background-color: #d32f2f;
+}
+
+/* Botón para generar bocadillo */
+.generar-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.generar-button:hover {
+    background-color: #388e3c;
+}
+
+/* Contenedor del bocadillo generado */
+.bocadillo-container {
+    width: 30%; /* Ajusta el ancho según sea necesario */
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Lista de ingredientes del bocadillo */
+.bocadillo-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.bocadillo-container li {
+    background-color: #f0f0f0;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}

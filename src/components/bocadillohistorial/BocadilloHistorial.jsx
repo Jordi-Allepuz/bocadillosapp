@@ -5,12 +5,14 @@ import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import { useEffect, useState } from "react";
 
-export const  BocadilloHistorial= () => {
+export const  BocadilloHistorial= (modalIsOpen, setModalIsOpen) => {
 
     return (
-        <>
-        
-        </>
+        <div style={{ display: modalIsOpen ? 'block' : 'none' }} className="modal">
+            <h1>Historial de anteriores Bocadillos</h1>
+            
+
+        </div>
 
         
         
